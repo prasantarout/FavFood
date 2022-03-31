@@ -1,0 +1,71 @@
+body{
+    background-color:#237909;
+}
+#heading{
+    text-align: center;
+    margin-top:5em;
+}
+.heading-one{
+    color:#cce011;
+    font-size: 35px;
+    font-weight:bold;
+}
+#grid-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:4em;
+}
+#textBox{
+    height:40px;
+    background-color: rgb(255, 0, 255);
+    border: none;
+    border-color: yellow;
+    width:20em;
+    color: 'black';
+    border-radius: 10px;
+}
+#generatebutton{
+    padding:10px;
+    margin-left:25px;
+    background-color: rgb(157, 255, 0);
+    border-radius: 10px;
+    color: black;
+    font-size: 18px;
+    cursor: pointer;
+}
+.heading-title{
+    text-align:center;
+    color: gray;
+    margin-right:35em;
+    font-size: 20px;
+}
+#grid{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+#grid-view{
+    background-color: rgb(224, 222, 222);
+    width:50%;
+    padding:7em;
+    border-radius: 10px;
+    -webkit-box-shadow: 10px -1px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px -1px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 10px -1px 5px 0px rgba(0,0,0,0.75);
+
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: black;
+    opacity: 1;
+    font-weight: bold;
+    margin-right: 28px;
+     text-align: center;
+  }
+  .img{
+      width: 50px;
+      height:50px;
+      text-align: center;
+      margin-top:-8em;
+     
+  }
