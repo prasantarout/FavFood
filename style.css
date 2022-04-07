@@ -3,114 +3,54 @@
     padding:0;
 }
 body{
-    background-color: rgb(245, 245, 245);
+    background-color: rgb(25, 184, 78);
 }
 
 .top-first{
     display: flex;
-    justify-content: space-around;
-   align-items: center;
-   background-color: rgb(192, 192, 192);
-margin-left: 10em;
-   width: 80%;
+    align-items: center;
+    justify-content: center;
 }
-
-#backgroundImg{
-    height: 45em;
-    width: 35em;
-  
-}
-#titleDescription{
-    color: gray;
-    font-size: 15px;
-    text-align: center;
-}
-#viewWork{
-    height: 3em;
-    width:10em;
-    border: 1px solid gray;
-    border-radius: 20px;
-    margin-left: 2em;
-    margin-top:20px;
-}
-#viewWork a{
-    text-decoration: none;
-    color: black;
+#vegetableSaladImg{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-left:23em;
+    margin-top:2em;
+    border: 2px solid white;
 }
 #titleName{
-    font-size: 20px;
-    
-}
-.heading-one{
-    background-color: black;
-    width: 54.5%;
-    padding:.5em;
-    margin-left: 18em;
-}
-#ourWork{
+    margin-top:20px;
     color: white;
-   
+    font-weight: bold;
+}
+.vegetable{
     text-align: center;
-}
-.border{
-border-left: 1px solid white;
-border-right: 1px solid white;
-}
-#firstImg{
-    margin-left:18em;
-    width:55.6%;
-}
-.momo{
-    padding:3em;
-    background-color: rgb(206, 205, 205);
-    width: 48.5%;
-    margin-left:18em;
-    
-    border-bottom: 2px solid black;
-}
-#secondImg{
-    width: 114.5%;
-    margin-top:-3em;
-    margin-left:-3em;
-}
-.momos{
-    padding:3em;
-    background-color: rgb(206, 205, 205);
-    width: 48.5%;
-    margin-left:18em;
-    margin-top:10px;
-    border-bottom: 2px solid black;
-}
-#thirdImg{
-    width: 114.5%;
-    margin-top:-3em;
-    margin-left:-3em;
-}
-#firstImgName{
-    text-align: center;
+    font-size: 18px;
+    color: rgb(51, 48, 231);
+    font-weight: bold;
     margin-top:20px;
-    font-size: 30px;
 }
-#secondImgName{
+#benefitsParagraph{
+    color: black;
+}
+.steps{
+    font-size: 18px;
+    color: blue;
+    font-weight:bold ;
     text-align: center;
-    margin-top:20px;
-    font-size: 30px;
+    margin-top: 20px;
 }
-.momoss{
-    padding:3em;
-    background-color: rgb(206, 205, 205);
-    width: 48.5%;
-    margin-left:18em;
-    margin-top:10px;
-
-}
-#fourthImg{
-    width: 114.5%;
-    margin-top:-3em;
-    margin-left:-3em;
-}
-#thirdImgName{
+#stepsForVegetableSalad{
     text-align: center;
+    margin: 10px 20px;
+}
+.footerTexts{
+    border-top: 1px solid white;
+    height:50px;
+}
+#footerText{
+    text-align: center;
+    color: rgb(77, 24, 161);
     margin-top:20px;
-    font-size: 30px;
 }
