@@ -3,58 +3,72 @@
     padding:0;
 }
 body{
-    background-color: rgb(25, 184, 78);
-    background-image: url('/image/mdk.jpg');
+    background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
+  
+    linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
+    
 }
 
-.top-first{
-   
-    
-    background: #BBD2C5;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #536976, #BBD2C5);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #536976, #BBD2C5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    
-  margin-top:-5em;
-    padding:20em;
-    width:20%;
-    margin-left:15em;
+.heading{
+   text-align: center;
+   margin:10em 0px;
+   width:30%;
+   margin-left:30em;
 }
-#textBox1{
-padding:2em;
-margin-left:3em;
-margin:10px 0px;
-background-color: rgba(0, 255, 255, 0.315);
-}
-#filed1{
-    margin-left:2em;
-}
-.first{
-    margin-top:20px;
-    margin-left:25px;
-}
-#yesMayBe{
-    margin:10px 20px;
+#heading1{
+    border-bottom: 2px solid white;
     
 }
-.first-line{
-    flex-direction: row;
-    margin-left:25px;
-    
+#heading2{
+    margin-top:25px;
+    color: rgb(223, 28, 119);
+    font-weight: bold;
 }
-#bestColor{
-margin-top:20px;
+#heading3{
+    margin-top:24px;
 }
-.span{
-    font-size: 12px;
+.grid-container{
+
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-left:10em;
+    padding: 10px;
 }
-.first-div{
-    margin-top:-10em;
+#imgItem{
+    width:90%;
+    height:90%;
 }
-#titleTag{
-    text-align: center;
-    margin-top:30px;
-    color: whitesmoke;
-}
-.first-desk{
-    margin-top:-10em;
-}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 80%;
+    background-color: white;
+  }
+  
+  td, th {
+    border: 1px solid black;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  /* tr:nth-child(even) {
+    background-color: #dddddd;
+  } */
+ #batsmanList{
+     background-color: rgb(196, 79, 147);
+ }
+ #runScore{
+    background-color: rgb(196, 79, 147);
+ }
+ #balFaced{
+    background-color: rgb(196, 79, 147);
+ }
+ #noofFours{
+    background-color: rgb(196, 79, 147);
+ }
+ #noofSixes{
+    background-color: rgb(196, 79, 147);
+ }
+ #noofStrikeRate{
+    background-color: rgb(196, 79, 147);
+ }
