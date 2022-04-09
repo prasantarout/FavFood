@@ -4,53 +4,57 @@
 }
 body{
     background-color: rgb(25, 184, 78);
+    background-image: url('/image/mdk.jpg');
 }
 
 .top-first{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+   
+    
+    background: #BBD2C5;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #536976, #BBD2C5);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #536976, #BBD2C5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+  margin-top:-5em;
+    padding:20em;
+    width:20%;
+    margin-left:15em;
 }
-#vegetableSaladImg{
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    margin-left:23em;
-    margin-top:2em;
-    border: 2px solid white;
+#textBox1{
+padding:2em;
+margin-left:3em;
+margin:10px 0px;
+background-color: rgba(0, 255, 255, 0.315);
 }
-#titleName{
+#filed1{
+    margin-left:2em;
+}
+.first{
     margin-top:20px;
-    color: white;
-    font-weight: bold;
+    margin-left:25px;
 }
-.vegetable{
+#yesMayBe{
+    margin:10px 20px;
+    
+}
+.first-line{
+    flex-direction: row;
+    margin-left:25px;
+    
+}
+#bestColor{
+margin-top:20px;
+}
+.span{
+    font-size: 12px;
+}
+.first-div{
+    margin-top:-10em;
+}
+#titleTag{
     text-align: center;
-    font-size: 18px;
-    color: rgb(51, 48, 231);
-    font-weight: bold;
-    margin-top:20px;
+    margin-top:30px;
+    color: whitesmoke;
 }
-#benefitsParagraph{
-    color: black;
-}
-.steps{
-    font-size: 18px;
-    color: blue;
-    font-weight:bold ;
-    text-align: center;
-    margin-top: 20px;
-}
-#stepsForVegetableSalad{
-    text-align: center;
-    margin: 10px 20px;
-}
-.footerTexts{
-    border-top: 1px solid white;
-    height:50px;
-}
-#footerText{
-    text-align: center;
-    color: rgb(77, 24, 161);
-    margin-top:20px;
+.first-desk{
+    margin-top:-10em;
 }
