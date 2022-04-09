@@ -31,8 +31,9 @@ body{
 
     display: grid;
     grid-template-columns: auto auto auto;
-    margin-left:10em;
+    margin-left:8em;
     padding: 10px;
+    margin-top:-8em;
 }
 #imgItem{
     width:90%;
