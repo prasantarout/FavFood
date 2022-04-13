@@ -4,114 +4,49 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MY11Circle</title>
+    <title>ANMIFORM</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
- <div class="heading">
-   <h1 id="heading1">ICC WORLD CUP 2021</h1>
-   <h2 id="heading2">INDIA VS SRILANKA</h2>
-   <h3 id="heading3">SCORECARD</h3>
+ <div class="headings">
+  <div id="heading">
+    <img src="/image/bats.png" alt="" class="bat"/>
+    <h1>ANMI-FORM</h1>
+    <img src="/image/bats.png" alt="" class="bat"/>
   </div>
-  <div class="grid-container">
-  <div class="grid-item1">
-    <img src="/image/story1.png" alt="" id="imgItem"/>
+  <div class="input">
+    <label>ANMI-Name</label><br/>
+    <input type="text" id="nameTextBox">
   </div>
-  <div class="grid-item">
-    <table>
-      <tr>
-        <th id="batsmanList">BATSMAN</th>
-        <th id="runScore">R</th>
-        <th id="balFaced">B</th>
-        <th id="noofFours">4s</th>
-        <th id="noofSixes">6s</th>
-        <th id="noofStrikeRate">SR</th>
-      </tr>
-      <tr>
-        <td>Akmal</td>
-        <td>93</td>
-        <td>64</td>
-        <td>6</td>
-        <td>64.0</td>
-        <td>64.0</td>
-        </tr>
-        <tr>
-          <td>Micron</td>
-          <td>40</td>
-          <td>31</td>
-          <td>3</td>
-          <td>31</td>
-          <td>33.1</td>
-          </tr>
-          <tr>
-            <td>First Horizon</td>
-            <td>66</td>
-            <td>22</td>
-            <td>2</td>
-            <td>2</td>
-            <td>20.2</td>
-            </tr>
-            <tr>
-              <td>Lungi</td>
-              <td>66</td>
-              <td>22</td>
-              <td>2</td>
-              <td>20.2</td>
-              <td>64.0</td>
-              </tr>
-              <tr>
-                <td>Alter</td>
-                <td>39</td>
-                <td>50</td>
-                <td>4</td>
-                <td>2</td>
-                <td>15.0</td>
-                </tr>
-                <tr>
-                  <td>ROHIT</td>
-                  <td>33</td>
-                  <td>10</td>
-                  <td>5</td>
-                  <td>0</td>
-                  <td>64.0</td>
-                  </tr>
-                  <tr>
-                    <td>KOHLI</td>
-                    <td>85</td>
-                    <td>122</td>
-                    <td>6</td>
-                    <td>2</td>
-                    <td>20.2</td>
-                    </tr>
-                    <tr>
-                      <td>Sancher</td>
-                      <td>69</td>
-                      <td>72</td>
-                      <td>12</td>
-                      <td>2</td>
-                      <td>17.2</td>
-                      </tr>
-                      <tr>
-                        <td>AltoIndia</td>
-                        <td>41</td>
-                        <td>50</td>
-                        <td>10</td>
-                        <td>1</td>
-                        <td>15.0</td>
-                        </tr>
-                        <tr>
-                          <td>Yuvraj</td>
-                          <td>41</td>
-                          <td>38</td>
-                          <td>5</td>
-                          <td>0</td>
-                          <td>11.5</td>
-                          </tr>
-    </table>    
-  </div>
-  <div class="grid-item">
-    <img src="/image/story1.png" alt="" id="imgItem"/>
-  </div>
+   <div class="grid">
+   <label for="cars" id="label">ANMI-(ORIGIN-COUNTRY)</label><br/>
+  <select name="cars" id="countryTextBox">
+    <option value="volvo" id="white">india</option>
+    <option value="saab"id="white">pakistan</option>
+    <option value="opel"id="white">nepal</option>
+    <option value="audi"id="white">srilanka</option>
+  </select>
+  <div class="first">
+  <label for="fname" class="left">DESCRIIPTION ABOUT THE ANMI</label><br/>
+  <input type="text" id="descriptionTextBox" name="fname">
+</div>
+</div>
+<div class="firsts">
+  <label for="fname" id="labels">No.of episode:</label><br/>
+  <input type="text" id="noOfEpisodes" name="fname"><br><br>
+</div>
+<div class="firsts">
+  <label for="lname" id="labelss">YOUR RATING</label><br/>
+  <input type="text" id="noOfRatingTextBox" name="lname"><br/>
+</div>
+<div class="firsts">
+  <label for="lname"id="labelss">AWARDS</label><br/>
+  <input type="text" id="awardsTedxtBox" name="lname">
+</div>
+<div class="right">
+  <button id="submitButton">SUBMIT</button>
+</div>
 
+  </div>
   </div>
 </html>

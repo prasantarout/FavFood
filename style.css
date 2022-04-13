@@ -3,73 +3,125 @@
     padding:0;
 }
 body{
-    background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
-  
-    linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
+  background-color: rgb(61, 61, 61);
     
 }
 
-.heading{
-   text-align: center;
-   margin:10em 0px;
-   width:30%;
-   margin-left:30em;
-}
-#heading1{
-    border-bottom: 2px solid white;
-    
-}
-#heading2{
-    margin-top:25px;
-    color: rgb(223, 28, 119);
+#heading{
+    width:40%;
+    padding:1em;
+    background-color: rgb(255, 0, 212);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
     font-weight: bold;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
-#heading3{
-    margin-top:24px;
+.bat{
+    width: 20px;
+    height: 20px;
+   
 }
-.grid-container{
+/* .input{
+    flex-direction: column;
+     display: inline;
+   padding:20px;
+} */
+.grid{
+    display:flex;
+    flex-direction: row;
+}
+.input{
+    margin:20px 40px;
+}
+#nameTextBox{
+    padding: 15px 40px;
+    
+    border: 1px solid rgb(179, 105, 118);
+    border-radius: 5px;
+    background-color: black;
+}
+#countryTextBox{
+    margin-top:30px;
+    padding:15px 40px;
+    width:18.5%;
+    border-radius: 5px;
+    margin-left: -15em;
+    background-color: black;
+    color: wheat;
+    border: 1px solid rgb(179, 105, 118);
+}
+.first{
+    margin-left:20em;
+}
+#label{
+    margin-left:40px;
+    color: white;
+}
+#white{
+    color: white;
+}
+.firsts{
 
-    display: grid;
-    grid-template-columns: auto auto auto;
-    margin-left:8em;
-    padding: 10px;
-    margin-top:-8em;
+    margin:10px 35px;
+   
 }
-#imgItem{
-    width:90%;
-    height:90%;
+#noOfEpisodes{
+    margin-top: 10px;
+    padding: 15px 40px;
+    background-color: black;
+    border-radius: 5px;
+    border: 1px solid rgb(179, 105, 118);
 }
-table {
-    font-family: arial, sans-serif;
-    border-collapse: collapse;
-    width: 80%;
-    background-color: white;
-  }
-  
-  td, th {
-    border: 1px solid black;
-    text-align: left;
-    padding: 8px;
-  }
-  
-  /* tr:nth-child(even) {
-    background-color: #dddddd;
-  } */
- #batsmanList{
-     background-color: rgb(196, 79, 147);
- }
- #runScore{
-    background-color: rgb(196, 79, 147);
- }
- #balFaced{
-    background-color: rgb(196, 79, 147);
- }
- #noofFours{
-    background-color: rgb(196, 79, 147);
- }
- #noofSixes{
-    background-color: rgb(196, 79, 147);
- }
- #noofStrikeRate{
-    background-color: rgb(196, 79, 147);
- }
+#labels{
+    margin-left:8px;
+    margin-top:-10px;
+    color: white;
+}
+#noOfRatingTextBox{
+    padding:15px 40px;
+    margin-top:10px;
+    background-color: black;
+    border-radius: 5px;
+    border: 1px solid rgb(179, 105, 118);
+}
+#awardsTedxtBox{
+    padding: 15px 40px;
+    margin:10px;
+    margin-left:-2px;
+    border-radius: 5px;
+    background-color: black;
+    border: 1px solid rgb(179, 105, 118);
+}
+#descriptionTextBox{
+    height: 100%;
+    margin:10px;
+    width:400%;
+    margin-left: -10em;
+    border-radius: 5px;
+    background-color: black;
+    border: 1px solid rgb(179, 105, 118);
+}
+#labelss{
+color: white;
+}
+.left{
+    margin-left: -8em;
+    color: white;
+}
+.right{
+    margin-left:40em;
+    margin-top:-10em;
+ 
+}
+#submitButton{
+    padding:10px 40px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    border: none;
+    box-shadow: rgba(194, 36, 154, 0.25) 0px 54px 55px, rgba(167, 56, 117, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(197, 36, 36, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    background-color: rgb(209, 68, 146);
+}
