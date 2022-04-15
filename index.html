@@ -9,44 +9,36 @@
 </head>
 <body>
  <div class="headings">
-  <div id="heading">
-    <img src="/image/bats.png" alt="" class="bat"/>
-    <h1>ANMI-FORM</h1>
-    <img src="/image/bats.png" alt="" class="bat"/>
-  </div>
-  <div class="input">
-    <label style="color: white;">ANMI-Name</label><br/>
-    <input type="text" id="nameTextBox">
-  </div>
-   <div class="grid">
-   <label for="cars" id="label">ANMI-(ORIGIN-COUNTRY)</label><br/>
-  <select name="cars" id="countryTextBox">
-    <option value="volvo" id="white">india</option>
-    <option value="saab"id="white">pakistan</option>
-    <option value="opel"id="white">nepal</option>
-    <option value="audi"id="white">srilanka</option>
-  </select>
-  <div class="first">
-  <label for="fname" class="left">DESCRIIPTION ABOUT THE ANMI</label><br/>
-  <input type="text" id="descriptionTextBox" name="fname">
-</div>
-</div>
-<div class="firsts">
-  <label for="fname" id="labels">No.of episode:</label><br/>
-  <input type="text" id="noOfEpisodes" name="fname"><br><br>
-</div>
-<div class="firsts">
-  <label for="lname" id="labelss">YOUR RATING</label><br/>
-  <input type="text" id="noOfRatingTextBox" name="lname"><br/>
-</div>
-<div class="firsts">
-  <label for="lname"id="labelss">AWARDS</label><br/>
-  <input type="text" id="awardsTedxtBox" name="lname">
-</div>
-<div class="right">
-  <button id="submitButton">SUBMIT</button>
-</div>
+  <div class="heading-top">
+    <img src="/image/spaceman1.jpg" alt="" id="backgroundImage"/>
+    <div class="form">
+      <h5 id="heading">Rocket Around the Earth</h5>
+      <label id="departureCountry" style="margin-top: 30px;">Departure Country</label>
 
-  </div>
+        <select id="select">
+          <option value="volvo">india</option>
+          <option value="saab">Serbia</option>
+          <option value="mercedes">srilanka</option>
+          <option value="audi">Nepal</option>
+        </select>
+        <div class=""style="margin-top:20px">
+          <label style="margin-top: 20px;">No Of space travel</label>
+          <input type="text" id="nofoTraveller">
+        </div>
+        <div class=""style="margin-top:20px">
+          <label style="margin-top: 20px;">Your email</label>
+          <input type="email" id="nofoTraveller">
+        </div>
+        <div class="devtool"style="margin-top:20px">
+          <label style="margin-top: 20px;">Do you wanna rent for space suit</label>
+          <input type="radio" id="nofoTraveller">
+          <span>Yes Please</span>
+          <input type="radio" id="nofoTraveller">
+          <span>No i have my own</span>
+        </div>
+        <button class="btn">Take us to the Space</button>
+    </div>
+    
+    </div>
   </div>
 </html>

@@ -1,127 +1,47 @@
-*{
-    margin:0;
-    padding:0;
-}
+
 body{
   background-color: rgb(61, 61, 61);
-    
+    background-image: url("/image/earth.jpg");
 }
 
+.heading-top{
+
+}
+#backgroundImage{
+ margin-top:2em;
+ width: 30%;
+}
+.form{
+  padding:10em;
+  width:10%;
+
+  margin-left: 10em;
+  background-color: white;
+  box-shadow: -11px 3px 70px 0px rgba(0,0,0,0.75);
+  -webkit-box-shadow: -11px 3px 70px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: -11px 3px 70px 0px rgba(0,0,0,0.75);
+}
 #heading{
-    width:40%;
-    padding:1em;
-    background-color: rgb(255, 0, 212);
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    color: white;
-    font-weight: bold;
-    border-top-right-radius: 10px;
-    border-bottom-right-radius: 10px;
-}
-.bat{
-    width: 20px;
-    height: 20px;
-   
-}
-/* .input{
-    flex-direction: column;
-     display: inline;
-   padding:20px;
-} */
-.grid{
-    display:flex;
-    flex-direction: row;
-}
-.input{
-    margin:20px 40px;
-}
-#nameTextBox{
-    padding: 15px 40px;
-    
-    border: 1px solid rgb(179, 105, 118);
-    border-radius: 5px;
-    background-color: black;
-}
-#countryTextBox{
-    margin-top:30px;
-    padding:15px 40px;
-    width:18.5%;
-    border-radius: 5px;
-    margin-left: -15em;
-    background-color: black;
-    color: wheat;
-    border: 1px solid rgb(179, 105, 118);
-}
-.first{
-    margin-left:20em;
-}
-#label{
-    margin-left:40px;
-    color: white;
-}
-#white{
-    color: white;
-}
-.firsts{
+  font-size: 20px;
+  margin-top:-8em;
 
-    margin:10px 35px;
-   
 }
-#noOfEpisodes{
-    margin-top: 10px;
-    padding: 15px 40px;
-    background-color: black;
-    border-radius: 5px;
-    border: 1px solid rgb(179, 105, 118);
+#select{
+  padding: 1em;
+  width: 140%;
+  background-color: gray;
+  margin-top: 20px;
 }
-#labels{
-    margin-left:8px;
-    margin-top:-10px;
-    color: white;
+#nofoTraveller{
+  margin-top:10px;
+  border: 1px solid rgb(63, 61, 61);
+  padding:0.5em;
 }
-#noOfRatingTextBox{
-    padding:15px 40px;
-    margin-top:10px;
-    background-color: black;
-    border-radius: 5px;
-    border: 1px solid rgb(179, 105, 118);
-}
-#awardsTedxtBox{
-    padding: 15px 40px;
-    margin:10px;
-    margin-left:-2px;
-    border-radius: 5px;
-    background-color: black;
-    border: 1px solid rgb(179, 105, 118);
-}
-#descriptionTextBox{
-    height: 100%;
-    margin:10px;
-    width:400%;
-    margin-left: -10em;
-    border-radius: 5px;
-    background-color: black;
-    border: 1px solid rgb(179, 105, 118);
-}
-#labelss{
-color: white;
-}
-.left{
-    margin-left: -8em;
-    color: white;
-}
-.right{
-    margin-left:40em;
-    margin-top:-10em;
+.devtool{
  
 }
-#submitButton{
-    padding:10px 40px;
-    border-radius: 5px;
-    cursor: pointer;
-    color: white;
-    border: none;
-    box-shadow: rgba(194, 36, 154, 0.25) 0px 54px 55px, rgba(167, 56, 117, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(197, 36, 36, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-    background-color: rgb(209, 68, 146);
+.btn{
+  background-color: blue;
+  color: white;
+  margin-top: 20px;
 }
