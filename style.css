@@ -4,109 +4,64 @@
 }
 body{
   background-color: rgb(248, 241, 241);
-   
+   background-image: url("https://wallpaper.dog/large/10959894.jpg");
 }
 .container{
-  background-color:rgb(255, 255, 255);
-  width: 80%;
-  margin-left: 8em;
-  height:50%;
- 
-  
+  background: rgba(85, 85, 87, 0.75);
+  padding: 10em;
+  width: 50%;
+  margin-left: 12em;
+  margin-top: 10em;
+  opacity: 0.0 - 1.0;
 }
-.top-heading{
-  background-color: rgb(247, 243, 33);
-   width:97%;
-  padding:1em;
-
-
+.top-height{
+  background-color: red;
+  margin-top:-10em;
+  width: 146.5%;
+  margin-left: -10em;
+}
+#titleName{
+  text-align: center;
   color: white;
-  
 }
-.heading{
+.Img_Wrapper{
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin: 10px 20px;
 }
-#img1{
-  width:30px;
-  height:5%;
+.heading_left{
+  margin-left: -6em;
+  margin: 10px 0px;
 }
-#img2{
-  width:30px;
-  height:5%;
-  border-radius:50px;
-  background-color: rgb(186, 186, 192);
-  margin-left:57em;
-  
+#popularHero{
+  margin-top: 40px;
+  color: white;
 }
-.image-tag{
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  margin:10px 40px;
+#pupularVilian{
+  margin-top: 40px;
+  color: white;
 }
 
-.text {
+.heading-right{
+  margin-left: 10em;
+  margin: 10px 0px;
+}
+.image{
+flex: 1;
+}
+
+.imageg{
+  flex: 1;
+}
+#img{
+
+  margin: 5px;
+}
+.imagess{
  
-  top: 50%; 
-  right: 50%;
-  transform: translate(50%,-50%);
-  text-transform: uppercase;
-  font-family: verdana;
-  font-size:8em;
-  font-style: italic;
-  font-weight: 700;
-  color: #9b46b4;
-  text-shadow: 1px 1px 1px #919191,
-      1px 2px 1px #919191,
-      1px 3px 1px #919191,
-      1px 4px 1px #919191,
-      1px 5px 1px #919191,
-      1px 6px 1px #919191,
-      1px 7px 1px #919191,
-      1px 8px 1px #919191,
-      1px 9px 1px #919191,
-      1px 10px 1px #919191,
-  1px 18px 6px rgba(16,16,16,0.4),
-  1px 22px 10px rgba(16,16,16,0.2),
-  1px 25px 35px rgba(16,16,16,0.2),
-  1px 30px 60px rgba(16,16,16,0.4);
+  flex: 1;
 }
-.headings{
-  display: flex;
-  align-items: center;
- justify-content:space-evenly;
- margin-top:10em;
+.imagess .imagessss .images{
+  flex: 1;
 }
-
-.price-section{
-  display: flex;
-  align-items: center;
-  justify-content:space-between;
- margin: 10px;
-}
-.price{
-  margin-left: -30px;
-}
-.add{
- margin-left: 30px;
- border-radius:2px;
- background-color: #919191;
-
-}
-.headingss{
-display: flex;
-  align-items: center;
- justify-content:space-evenly;
- margin-top:2em;
-}
-.containers{
-  background-color:rgb(255, 255, 255);
-  width: 80%;
-  margin-left: 8em;
-  height:50%;
- }
- .item-ones{
-   margin-top:80px;
- }
